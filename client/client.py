@@ -87,7 +87,7 @@ class client(bge.types.KX_PythonComponent):
                 
                 if not data: break
                 
-                position, position = [], []
+                position, rotation = [], []
                 position.append({"posX":self.object.worldPosition[0]})
                 position.append({"posY":self.object.worldPosition[1]})
                 position.append({"posZ":self.object.worldPosition[2]})
